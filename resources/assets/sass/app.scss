@@ -8,7 +8,13 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display');
+
+@import '~csshake';
+
 body{
+    //font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
     background-image:url('http://www.planwallpaper.com/static/images/Abstract-Texture-Wallpapers-8.jpg');
     background-size:cover;
     background-attachment:fixed;
@@ -16,7 +22,36 @@ body{
 
 .my-container{
     box-shadow:1px 1px 5px #fff9f9;
-    height:100%;
+    min-height:100%;
     background-color:rgba(0,0,0,0.6);
+    min-height:1000px;
+}
+
+.notes-back{
     
+    
+    
+}
+
+.notes-inner{
+ background-image:url('http://pngimg.com/uploads/sticky_note/sticky_note_PNG18952.png');
+ padding:10px;
+ height:300px;
+ width:300px;
+ background-size:cover;
+ 
+ .notes-text{
+     margin-top:40px;
+    font-size:18px;
+    color:#a53a3a;
+ }
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.my-jumbo{
+    background-color:rgba(96,47,47,0.6);
 }
