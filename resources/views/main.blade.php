@@ -6,7 +6,7 @@
 <div class="container my-container">
 
     <div class="row text-center">
-    <h3>This should be bootstrapped already in container</h3>
+    <h3>Hello, <strong></strong>!</h3>
     </div>
     <div class="jumbotron my-jumbo">
     <img src="{{ asset('img/main-shiba.jpg') }}" class="img-thumbnail">
