@@ -9,7 +9,7 @@
     <h3>This should be bootstrapped already in container</h3>
     </div>
     <div class="jumbotron my-jumbo">
-    <img src="http://wallup.net/wp-content/uploads/2016/12/08/392095-anime-dog-Shiba_Inu.jpg" class="img-thumbnail">
+    <img src="{{ asset('img/main-shiba.jpg') }}" class="img-thumbnail">
     </div>
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="row text-center">
-    <img src="https://vignette.wikia.nocookie.net/camphalfbloodroleplay/images/0/05/Doge.png/revision/latest?cb=20140628024222" class="shake shake-hard">
+    <img src="{{ asset('img/Doge.png')}}" class="shake shake-hard">
     </div>
 
     <div class="well">
